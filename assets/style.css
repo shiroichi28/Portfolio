@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
 :root {
   --header-height: 3rem;
-  --font-semi: 600;
+  --font-semi: 700;
   --primary-color: #16ff00;
   --secondary-color: --primary-color;
   --gradient-color: linear-gradient(to right, #5001fb, #8e0af3);
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Comic Neue", cursive;
   --big-font-size: 2rem;
   --h2-font-size: 1.5rem;
   --normal-font-size: 0.938rem;
@@ -298,24 +298,6 @@ img {
 .work_img img:hover {
   transform: scale(1.1);
 }
-.control_input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--secondary-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.control_button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
 .footer {
   background-color: black;
   color: var(--primary-color);
@@ -333,7 +315,7 @@ img {
 }
 .footer_icon {
   font-size: 1.5rem;
-  color: white;
+  color: var(--primary-color);
   margin: 0 var(--mb-2);
 }
 @media screen and (min-width: 768px) {
@@ -405,12 +387,7 @@ img {
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
-  .contact_form {
-    width: 400px;
-  }
-  .contact_container {
-    justify-items: center;
-  }
+
 }
 @media screen and (min-width: 1024px) {
   .bd_grid {
