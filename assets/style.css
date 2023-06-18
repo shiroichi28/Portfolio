@@ -267,16 +267,16 @@ img {
   z-index: var(--z-back);
 }
 .skill_html {
-  width: 95%;
+  width: 80%;
 }
 .skill_css {
   width: 60%;
 }
 .skill_js {
-  width: 70%;
+  width: 60%;
 }
 .skill_php {
-  width: 85%;
+  width: 75%;
 }
 .skill_python {
   width: 75%;
